@@ -1,0 +1,8 @@
+[package]
+name = "zenn-2022-05-15"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+bevy = "0.7"

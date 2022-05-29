@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cargo doc --workspace --open",
+            "type": "shell",
+            "command": "cargo doc --workspace --open",
+            "problemMatcher": ["$rustc"]
+        },
+        {
+            "label": "cargo run zenn-2022-05-15",
+            "type": "shell",
+            "command": "cargo run --package zenn-2022-05-15 --features bevy/dynamic",
+            "problemMatcher": ["$rustc"]
+        },
+        {
+            "label": "trunk serve zenn-2022-05-15",
+            "type": "shell",
+            "command": "trunk serve -- examples/zenn-2022-05-15/index.html",
+            "problemMatcher": []
+        }
+    ]
+}
