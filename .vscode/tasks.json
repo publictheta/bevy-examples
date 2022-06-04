@@ -18,6 +18,12 @@
             "type": "shell",
             "command": "trunk serve -- crates/zenn-2022-05-15/index.html",
             "problemMatcher": []
+        },
+        {
+            "label": "cargo run zenn-2022-06-04",
+            "type": "shell",
+            "command": "cargo run --package zenn-2022-06-04 --features bevy/dynamic",
+            "problemMatcher": ["$rustc"]
         }
     ]
 }
